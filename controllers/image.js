@@ -1,3 +1,14 @@
+// Your PAT (Personal Access Token) can be found in the portal under Authentification
+const PAT = 'a334ec27669d4da7bf225dfe3037d0c1';
+// Specify the correct user_id/app_id pairings
+// Since you're making inferences outside your app's scope
+const USER_ID = 'pih18w73x5wx';
+const APP_ID = 'test';
+// Change these to whatever model and image URL you want to use
+const MODEL_ID = 'face-detection';
+const MODEL_VERSION_ID = '6dc7e46bc9124c5c8824be4822abe105';
+// const IMAGE_URL = 'https://samples.clarifai.com/metro-north.jpg';
+
 ///////////////////////////////////////////////////////////////////////////////////
 // YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE TO RUN THIS EXAMPLE
 ///////////////////////////////////////////////////////////////////////////////////
