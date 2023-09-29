@@ -41,9 +41,9 @@ const handleApiCall = (req,res) =>{
                 throw new Error(err);
             }
 
-            if (response.status.code !== 10000) {
-                throw new Error("Post model outputs failed, status: " + response.status.description);
-            }
+            // if (response.status.code !== 10000) {
+            //     throw new Error("Post model outputs failed, status: " + response.status.description);
+            // }
 
             // Since we have one input, one output will exist here
             const output = response.outputs[0].data.regions;
